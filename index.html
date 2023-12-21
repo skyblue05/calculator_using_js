@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calcu">
+        <input type="text" readonly id="display">
+        <div id="keys">
+            <button onclick="clearDisplay()" id="sy">AC</button>
+            <button onclick="deDisplay()" id="sy">DE</button>
+            <button onclick="appendToA('A')" id="sy">A </button>
+            <button onclick="calculate()" id="sy">=</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('+')" id="sy">+</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('-')" id="sy">-</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('*')" id="sy">X</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('00')">00</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="appendToDisplay('/')" id="sy">÷</button>
+
+
+
+        </div>
+    </div>
+    <footer style="background-color: black;color: white;text-align: center;font-weight: bolder;background-color: #333;padding: 10px;position: fixed;bottom: 0;width: 100%;">
+        &copy; 2023 by <a href="https://www.linkedin.com/in/akash-balasaheb-borude/" target="_blank"
+            style="color: White;">Akash</a> . All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
