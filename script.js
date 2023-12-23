@@ -24,6 +24,7 @@ function deDisplay() {
 function appendToA() {
 
     display.value = 'Made by Akash';
+    window.location.href = "https://www.linkedin.com/in/akash-balasaheb-borude/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BaqsDSWfNQUSGZ4Om73kkeg%3D%3D"; 
 
 }
 
